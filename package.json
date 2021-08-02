@@ -1,0 +1,76 @@
+{
+    "id": "developer-infomationtomoney",
+    "name": "58同城赶集网生活服务分类+信息发布置顶佣金+社区论坛+房产招聘二手自定义栏目等 ",
+    "version": "1.0.1",
+    "description": "58同城赶集网生活服务分类+信息发布置顶佣金+社区论坛+房产招聘二手自定义栏目等 ",
+    "keywords": [
+        "生活分类信息服务平台",
+        "佣金变现",
+        "58同城赶集网",
+        "信息发布",
+        "社区论坛"
+    ],
+    "displayName": "58同城赶集网生活服务分类+信息发布置顶佣金+社区论坛+房产招聘二手自定义栏目等 ",
+    "repository": "",
+    "dcloudext": {
+        "category": [
+            "前端页面模板",
+            "uni-app前端项目模板"
+        ],
+        "sale": {
+            "regular": {
+                "price": "0.00"
+            },
+            "sourcecode": {
+                "price": "0.00"
+            }
+        },
+        "contact": {
+            "qq": ""
+        },
+        "declaration": {
+            "ads": "无",
+            "data": "插件不采集任何数据",
+            "permissions": "无"
+        },
+        "npmurl": ""
+    },
+    "uni_modules": {
+        "platforms": {
+            "cloud": {
+                "tcb": "y",
+                "aliyun": "y"
+            },
+            "client": {
+                "App": {
+                    "app-vue": "u",
+                    "app-nvue": "u"
+                },
+                "H5-mobile": {
+                    "Safari": "u",
+                    "Android Browser": "u",
+                    "微信浏览器(Android)": "u",
+                    "QQ浏览器(Android)": "u"
+                },
+                "H5-pc": {
+                    "Chrome": "u",
+                    "IE": "u",
+                    "Edge": "u",
+                    "Firefox": "u",
+                    "Safari": "u"
+                },
+                "小程序": {
+                    "微信": "u",
+                    "阿里": "u",
+                    "百度": "u",
+                    "字节跳动": "u",
+                    "QQ": "u"
+                },
+                "快应用": {
+                    "华为": "u",
+                    "联盟": "u"
+                }
+            }
+        }
+    }
+}

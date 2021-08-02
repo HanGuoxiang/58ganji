@@ -1,0 +1,563 @@
+{
+	"easycom": {
+	  "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,  //设置为true表示当前页面开启下拉刷新
+				"backgroundTextStyle": "dark"  //下拉 loading 的样式，仅支持 dark/light
+			}
+		},
+		{
+			"path": "pages/topic/topic",
+			
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+		    "path" : "pages/publish/publish",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/task/task",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true,  //设置为true表示当前页面开启下拉刷新
+				"backgroundTextStyle": "dark"  //下拉 loading 的样式，仅支持 dark/light
+	
+			} 
+		},
+		
+		{
+			"path": "view/chatRoom",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+		    "path" : "pages/index/cataloglist",
+		    "style" :                                                                                    
+		    { 
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+			"path": "pages/index/login",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/me/setting",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},	{
+			"path": "view/code",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		
+		{
+			"path": "view/sign",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "view/issueThing",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "view/adress",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "view/myUnused",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "view/myTask",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "view/buy",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "view/fans",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "view/mine",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "view/follow",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "view/storeDetail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "view/taskDetail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "view/myCard",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		
+		
+		{
+			"path": "view/userEdit",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "view/sort",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "view/collection",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "view/issue",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "view/addLabels",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "view/editDescript",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+		
+	    ,{
+            "path" : "view/chooseCity",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+			"path": "pages/store/store",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+		
+        // ,{
+        //     "path" : "pages/index/cataloglistone",
+        //     "style" :                                                                                    
+        //     {
+        //         "navigationBarTitleText": "",
+        //         "enablePullDownRefresh": false
+        //     }
+            
+        // }
+        
+		],
+	"subPackages":[
+		{
+			"root":"pagestopic",
+			"pages":[
+				{
+					"path": "topiclist",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+		
+		{
+			"path": "topiccomment",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},{
+		    "path" : "topicdetail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+			]
+		},
+		{"root":"pagespublish",
+		"pages":[
+			
+			{
+			    "path" : "publishfinished",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "",
+			        "enablePullDownRefresh": false
+			    }
+			    
+			}
+			
+			,{
+			    "path" : "publishchoosetype",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "",
+			        "enablePullDownRefresh": false
+			    }
+			    
+			}
+			,{
+			    "path" : "publishcatalogone",
+			    "style" :                                                                                     
+			    {
+			        "navigationBarTitleText": "",
+			        "enablePullDownRefresh": false
+			    }
+			    
+			}
+		]},
+		{
+			"root":"pagescommon",
+			"pages":[
+				{
+					"path": "login",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "forget",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "register",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				}
+			]
+		},
+		{
+			"root":"pagesuser",
+		"pages":[
+			{
+				"path":"setting/Feedback"
+				// "style" :
+				// {
+				//     "navigationBarTitleText": "",
+				//     "enablePullDownRefresh": false
+				// }
+			},
+			{
+			    "path" : "wallet/MyWallet",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "",
+			        "enablePullDownRefresh": false
+			    }
+			    
+			},
+			{
+			    "path" : "wallet/ConsumeRecord",
+			    "style" :                                                                                    
+			    {
+			        "navigationBarTitleText": "",
+			        "enablePullDownRefresh": false
+			    }
+			    
+			},
+			{
+				"path": "userinfo/userinfo",
+				"style": {
+					"navigationStyle": "custom"
+				}
+			}
+		]},
+		{
+			"root":"pagesinfo",
+			"pages":[
+				{
+				    "path" : "infolist",
+				    "style" :                                                                                    
+				    {
+				        "navigationBarTitleText": "",
+				        "enablePullDownRefresh": false
+				    }
+				    
+				}
+				,{
+				    "path" : "infodetail",
+				    "style" :                                                                                    
+				    {
+				        "navigationBarTitleText": "",
+				        "enablePullDownRefresh": false
+				    }
+				    
+				}
+				,{
+				    "path" : "infoupdate",
+				    "style" :                                                                                    
+				    {
+				        "navigationBarTitleText": "",
+				        "enablePullDownRefresh": false
+				    }
+				    
+				}
+				,{
+				    "path" : "infolistmy",
+				    "style" :                                                                                    
+				    {
+				        "navigationBarTitleText": "",
+				        "enablePullDownRefresh": false
+				    }
+				    
+				},{
+            "path" : "infodemand",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false 
+            }
+            
+        }
+			]
+		},
+		{ 
+			"root":"pageschat",
+			"pages":[
+				{
+					"path": "chatlist",
+					"style": {
+						"navigationStyle": "custom"
+					}
+				}
+				
+				
+			]
+		}, 
+		{
+			"root":"pagesarticle",
+			"pages":[
+				{ 
+					"path": "articledetail",
+					
+					"style": {
+						"navigationStyle": "custom"
+					}
+				}
+				,{
+					"path" : "articledetailurl",
+					"style" :                                                                                    
+					{
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+					
+				} 
+		]}, 
+		{
+			"root":"pagesaddress",
+			"pages":[
+				{
+					"path" : "address",
+					"style" :                                                                                    
+					{
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+					
+				}
+			]},
+		{
+			"root":"pagesorder",
+			"pages":[
+			 
+	
+		{
+			"path": "ConfirmOrder",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "OrderDetails",
+			"style": {
+				"navigationStyle": "custom" 
+			}
+		},
+		{
+			"path": "components/coupon-select",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "components/product-list",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}  ,{
+            "path" : "order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "orderlistmy",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+       
+        ,{
+            "path" : "orderupdate",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "ordercreate",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "orderlistbuyer",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "orderSendGood", 
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ]
+	}],
+	"globalStyle": {
+		"navigationStyle": "custom"
+	},
+	"tabBar":{
+		"color":"#CDCDCD",
+		"selectedColor":"#333333",
+		"backgroundColor":"#FFFFFF",
+		"borderStyle":"white",
+		"list":[{
+			"pagePath":"pages/index/index",
+			"iconPath":"static/image/tabBar/square.png",
+			"selectedIconPath":"static/image/tabBar/square_fill.png",
+			"text":"推荐"
+		}
+		,{
+			"pagePath":"pages/topic/topic",
+			"iconPath":"static/image/tabBar/task.png",
+			"selectedIconPath":"static/image/tabBar/task_fill.png",
+			"text":"话题" 
+		},{ 
+			"pagePath":"pages/publish/publish",
+			"iconPath":"static/image/tabBar/publish_nor.png",
+			"selectedIconPath":"static/image/tabBar/publish_sel.png",
+			"text":"发布",
+			"height":"100px"
+		}
+		,{
+			"pagePath":"pages/chat/chat",
+			"iconPath":"static/image/tabBar/chat.png",
+			"selectedIconPath":"static/image/tabBar/chat_fill.png",
+			"text":"消息"
+		},{
+			"pagePath":"pages/me/me",
+			"iconPath":"static/image/tabBar/me.png",
+			"selectedIconPath":"static/image/tabBar/me_fill.png",
+			"text":"我的"
+		}
+		]
+	}
+}
+
